@@ -26,6 +26,7 @@ model|db_table|fields/columns
 `Queue`|`django`|`id`,`worker`,`name`
 `Worker`|`redis_push`|`id`,`worker`,`restart_interval`,`sleep_interval`
 `WorkerException`|`redis_push`|`id`,`worker`,`exc_class`,`exc_message`,`exc_traceback`,`created_at`
+`WorkerStatus`|`redis_push`|`id`,`worker_id`,`started_at`,`updated_at`
 
 ### Management commands
 name|description

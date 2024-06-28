@@ -29,7 +29,7 @@ model|db_table|fields/columns
 
 ### Management commands
 name|description
--|-|-
+-|-
 `command_queue_worker`|queue worker
 
 ### Examples
